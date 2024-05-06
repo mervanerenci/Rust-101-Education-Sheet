@@ -2,7 +2,7 @@
 
 // Ownership example
 fn ownership_example() {
-    let x = 40; // 'x' is the owner of the value '42'
+    let x = 30; // 'x' is the owner of the value '30'
     let y = x; // Ownership of the value is moved from 'x' to 'y'
     println!("x = {}", x); // Error: borrow of moved value: `x`
 }
